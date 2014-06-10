@@ -19,6 +19,12 @@ textarea {
 }
 
 html {
+    background: url(../img/bg1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
     font-size: 1em;
     line-height: 1.4;
 }
@@ -97,17 +103,130 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.masthead-brand a {
+	display: block;
+	height: 103px;
+	width: 376px;
+	overflow: hidden;
+	background: url(../img/title1.png) left top no-repeat;
+	background-size: cover;
+}
 
+.masthead-brand a:before {
+	content: '';
+	display: block;
+	width: 0;
+	height: 150%;
+}
 
+.masthead-social {
+	text-align: left;
 
+}
 
+.masthead .masthead-social {	
+	float:none;
+	position:absolute;
+	top:0;
+	right:0;
+	text-align: right;
+	padding-top: 28px;
+	
+}
 
+.social-twitter{
+	padding: 10px;
+	display: inline-block;
+	width:32px;
+	height:32px;
+	background-image: url(../img/twitter.png);
+	background-repeat: no-repeat;
 
+}
+.social-facebook{
+	padding: 10px;
+	display: inline-block;
+	width:32px;
+	height:32px;
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+	
+}
+.social-instagram{
+	padding: 10px;
+	display: inline-block;
+	width:32px;
+	height:32px;
+	background-image: url(../img/instagram.png);
+	background-repeat: no-repeat;
+}
 
+@media screen and (max-width:768px){
+	
+.masthead .masthead-social {	
+	float:none;
+	position:absolute;
+	top:0;
+	right:0;
+	text-align: right;
+	padding-top: 50px;
+	
+}
 
+.social-twitter{
+	padding: 10px;
+	display: inline-block;
+	width:32px;
+	height:32px;
+	background-image: url(../img/twitter.png);
+	background-repeat: no-repeat;
 
+}
+.social-facebook{
+	padding: 10px;
+	display: inline-block;
+	width:32px;
+	height:32px;
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+	
+}
+.social-instagram{
+	padding: 10px;
+	display: inline-block;
+	width:32px;
+	height:32px;
+	background-image: url(../img/instagram.png);
+	background-repeat: no-repeat;
+}
+	
+.masthead-address{
+	display: inline-block;
+	padding-top: 1000px;
+	padding-left: 30px;
+	height: 103px;
+	width: 170px;
+	font-size: small;
+	color: white;
+}
+	
+}
 
+.masthead-address{
+	display: inline-block;
+	padding-top: 40px;
+	padding-left: 30px;
+	height: 103px;
+	width: 170px;
+	font-size: small;
+	color: white;
+}
 
+.masthead-nav{
+	
+	color: white;
+	font-size: 30px;
+}
 
 
 
