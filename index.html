@@ -22,7 +22,7 @@
       
        <!-- Optional type and form styling 
        <link rel="stylesheet" href="css/base.css"> -->
-       
+       	<link rel="stylesheet" href="">
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -32,19 +32,21 @@
     <header class="masthead">
     <h1 class="masthead-brand seven columns alpha"><a href="http://partsandlaborbutchery.com">Parts and Labor</a></h1>
 	
-	<h2 class="masthead-address two colums">2600 N HOWARD ST. BALTIMORE. MD 21218 443-873-8887<h2>
+	<h2 class="masthead-address two colums">2600 N HOWARD ST.<br>BALTIMORE. MD 21218<br>443-873-8887<h2>
 	
-			<nav class="masthead-social sixteen columns omega">
+			<nav class="masthead-social seven columns ">
 				<ul class="nav">
 					
-					<li><a class="social-twitter ir" href="#">Social 1</a></li>					
-					<li><a class="social-facebook ir" href="#">Social 2</a></li>					
-					<li><a class="social-instagram ir" href="#">Social 3</a></li>
+					<li><a class="social-twitter ir" href="#"></a></li>					
+					<li><a class="social-facebook ir" href="#"></a></li>					
+					<li><a class="social-instagram ir" href="#"></a></li>
+					
 				</ul>			
 			</nav>												
 	</header>
 	
-		<nav class="masthead-nav four columns">			
+		<!--
+<nav class="masthead-nav four columns">			
 				<ul>
 					<li><a href="#">Link 1</a></li>
 					<li><a href="#">Link 2</a></li>
@@ -53,21 +55,162 @@
 					<li><a href="#">Link 5</a></li>
 				</ul>			
 			</nav>
+-->
 			
-			<div class="menu">				
+			<button class="reservation four columns">
+			<p>reservations</p>		
+			</button>		
+			<div class="menu twelve columns">
+			<p>menu</p>
+				<div class="section twelve columns">
+				<p> -----popular choices----- </p>	
+				</div>
+				<ul class="smenu">
+					<li class="clearfix">
+						<h2 class="menu-item six columns">P&L Dry-Aged Burger</h2>
+							<p class="menu-price five columns">$9</p>
+						<h2 class="menu-item six columns">Raw Beef</h2>
+							<p class="menu-price five columns">$12</p>
+						<h2 class="menu-item six columns">Sticky Pork Chop Sandwich</h2>
+							<p class="menu-price five columns">$10</p>
+						<h2 class="menu-item six columns">Pork 'Back' Ribs</h2>
+							<p class="menu-price five columns">$9</p>
+						<h2 class="menu-item six columns">Wiesswurst SAUSAGES</h2>
+							<p class="menu-price five columns">$9</p>
+						<h2 class="menu-item six columns">Stewed Wood-Ash Hominy</h2>
+							<p class="menu-price five columns">$9</p>
+						<h2 class="menu-item six columns">Spring Lettuces SALADS</h2>
+							<p class="menu-price five columns">$9</p>
+						<h2 class="menu-item six columns">Strawberries & 'Ewe's Cream'</h2>
+							<p class="menu-price five columns">$9</p>
+						<h2 class="menu-item six columns">Petite Tender</h2>
+							<p class="menu-price five columns">$9</p>
+						<h2 class="menu-item six columns">Fried Dirty Rice</h2>
+							<p class="menu-price five columns">$9</p>
+					</li>
+				
+
+				</ul>
+
+					<div class="menuex twelve columns">
+						<!-- Button trigger modal -->
+								<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+								FULL MENU
+								</button>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+      <!--  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->        <!--   button -->
+              <h4 class="modal-title" id="myModalLabel" >MENU</h4>
+      </div>
+      <div class="modal-body">
+		  <div class="clearfix">
+		  <h4 class="modal-subtitle" id="myModalLabel">FROM THE SALT HOUSE TO SHARE</h4>
+				<h2 class="menu-itemx six columns">Andouille</h2>
+				<p class="menu-pricex six columns">Mortadella</p>
+				<h2 class="menu-itemx six columns">Coppa</h2>
+				<p class="menu-pricex six columns">Summer Sausage</p>
+				<h2 class="menu-itemx six columns">Beautiful Bastard</h2>
+				<p class="menu-pricex six columns">Corned Beef Tongue</p>
+				<h2 class="menu-itemx six columns">Pick 3</h2>
+				<p class="menu-pricex six columns">$12</p>
+		  </div>		
+			<div class="clearfix">	
+				<h4 class="modal-subtitle" id="myModalLabel">SALADS</h4>
+				<h2 class="menu-itemx six columns">Spring Lettuces</h2>
+				<p class="menu-pricex six columns">$7</p>
+				<h2 class="menu-itemx six columns">Asparagus</h2>
+				<p class="menu-pricex six columns">$12</p>	
+				<h2 class="menu-itemx six columns">Grilled Romaine</h2>
+				<p class="menu-pricex six columns">$9</p>
+				<h2 class="menu-itemx six columns">Beets</h2>
+				<p class="menu-pricex six columns">$8</p>			
+		  	</div>
+		  		<div class="clearfix">	
+				<h4 class="modal-subtitle" id="myModalLabel">DRY-AGED BUTCHER'S CUTS</h4>
+				<h2 class="menu-itemx six columns">Culotte</h2>
+				<p class="menu-pricex six columns">$16</p>
+				<h2 class="menu-itemx six columns">Tamworth Pork Chop</h2>
+				<p class="menu-pricex six columns">$24</p>	
+				<h2 class="menu-itemx six columns">Tri-Tip</h2>
+				<p class="menu-pricex six columns">$17</p>
+				<h2 class="menu-itemx six columns">Bone-In Pork Blade</h2>
+				<p class="menu-pricex six columns">$24</p>		
+				<h2 class="menu-itemx six columns">Dry-Aged Filet</h2>
+				<p class="menu-pricex six columns">$38</p>
+				<h2 class="menu-itemx six columns">Porterhouse</h2>
+				<p class="menu-pricex six columns">$52</p>		
 			</div>
+				<div class="clearfix">	
+				<h4 class="modal-subtitle" id="myModalLabel">SANDWICHES‍</h4>
+				<h2 class="menu-itemx six columns">P&L Burger</h2>
+				<p class="menu-pricex six columns">$14</p>
+				<h2 class="menu-itemx six columns">TRaw Beef</h2>
+				<p class="menu-pricex six columns">$10</p>	
+				<h2 class="menu-itemx six columns">Sticky Pork Chop </h2>
+				<p class="menu-pricex six columns">$15</p>
+			</div>
+				<div class="clearfix">	
+				<h4 class="modal-subtitle" id="myModalLabel">VARIETIES</h4>
+				<h2 class="menu-itemx six columns">Pride & Joy</h2>
+				<p class="menu-pricex six columns">$10</p>
+				<h2 class="menu-itemx six columns">Blood Sausage</h2>
+				<p class="menu-pricex six columns">$16</p>	
+				<h2 class="menu-itemx six columns">Korean Style Short Ribs</h2>
+				<p class="menu-pricex six columns">$12</p>
+			</div>
+				<div class="clearfix">	
+				<h4 class="modal-subtitle" id="myModalLabel">SAUSAGES‍</h4>
+				<h2 class="menu-itemx six columns">Wiesswurst</h2>
+				<p class="menu-pricex six columns">$9</p>
+				<h2 class="menu-itemx six columns">Lamb Sausage</h2>
+				<p class="menu-pricex six columns">$12</p>	
+				<h2 class="menu-itemx six columns">Hungarian Kielbasa</h2>
+				<p class="menu-pricex six columns">$9</p>
+				<h2 class="menu-itemx six columns">Bratwurst</h2>
+				<p class="menu-pricex six columns">$8</p>			
+		  	</div>
+		  		<div class="clearfix">	
+				<h4 class="modal-subtitle" id="myModalLabel">ON THE SIDE‍</h4>
+				<h2 class="menu-itemx six columns">Potato Salad</h2>
+				<p class="menu-pricex six columns">$6</p>
+				<h2 class="menu-itemx six columns">Cole Slaw</h2>
+				<p class="menu-pricex six columns">$6</p>	
+				<h2 class="menu-itemx six columns">Cattle Beans</h2>
+				<p class="menu-pricex six columns">$7</p>
+				<h2 class="menu-itemx six columns">Collard Greens</h2>
+				<p class="menu-pricex six columns">$7</p>			
+		  	</div>
+		  
+		  
+		  
+		  
+		  </div>
+      </div>
+      <div class="modal-footer">
+   
+      </div>
+    </div>
+  </div>
+</div>
+			</div>
+		
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
        	 <!-- Add your site or application content here -->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
        
        <!-- load jQuery Plugins Here -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+         <script src="js/vendor/tab.js"></script>
+          <script src="js/vendor/modal.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
