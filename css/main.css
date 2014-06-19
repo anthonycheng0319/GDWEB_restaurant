@@ -185,7 +185,6 @@ textarea {
 	font-size: 24px;
 	text-align:center;
 	letter-spacing: 1px;
-	color: white;
 	border-radius: 10px;
 	color: rgb(230,227,183);
 }
@@ -276,6 +275,17 @@ font-family: 'homestead-regular' , helvetica ;
 	line-height: normal;
 	font-family: 'homestead-regular' , helvetica ;
 	
+}
+
+.hours{
+	display:block;
+	background-color: rgba(43,17,0,0.5);
+	font-family: 'homestead-regular' , helvetica ;
+	font-size: 24px;
+	text-align:center;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	color: rgb(230,227,183);
 }
 
 /*------------------------------ MODAL ---------------------------------------------------------------------*/
